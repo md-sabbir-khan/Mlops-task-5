@@ -18,7 +18,7 @@ parts = [
 
 pattern = re.compile(r'\s+'.join(parts)+r'\s*\Z')
 
-file = open("/home/Mr_spy/task-5/$log_file_name")
+file = open("/home/Mr_spy/task-5/access_log")
 
 with open(csv_file_name, 'w') as out:
     csv_out=csv.writer(out)
