@@ -1,7 +1,7 @@
 import csv
 import re
 
-log_file_name = "/home/Mr_spy/task-5/access_logcess_log"
+log_file_name = "access_logcess_log"
 csv_file_name = "parsed_log.csv"
 
 parts = [
