@@ -20,7 +20,7 @@ pattern = re.compile(r'\s+'.join(parts)+r'\s*\Z')
 
 file = open("/home/Mr_spy/task-5/access_log")
 
-with open(csv_file_name, 'w') as out:
+with open("/home/Mr_spy/task-5/parsed_log.csv", 'w') as out:
     csv_out=csv.writer(out)
     csv_out.writerow(['Host', 'User', 'Time', 'Request', 'Status', 'Data_Size', 'Page_Name', 'User_agent'])
 
