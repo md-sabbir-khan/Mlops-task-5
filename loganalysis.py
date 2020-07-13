@@ -88,7 +88,7 @@ res = CountFrequency(ips_result['IPs'].tolist(), ips_result['Host'].tolist())
 
 # Write result in the result.text file
 
-file1 = open("/home/Mr_spy/task-5/result.txt","w")
+file1 = open("/home/Mr_spy/task-5/result.text","w")
 file1.write(res)
 file1.close()
 
