@@ -2,7 +2,7 @@
 # coding: utf-8
 
 import pandas as pd
-dataset = pd.read_csv('parsed_log.csv')
+dataset = pd.read_csv('/home/Mr_spy/task-5/parsed_log.csv')
 dataset
 
 
