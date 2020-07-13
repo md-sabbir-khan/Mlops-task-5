@@ -85,11 +85,10 @@ def CountFrequency(my_list, ip_label):
     return ip_label[my_list.index(max_key)]
 
 res = CountFrequency(ips_result['IPs'].tolist(), ips_result['Host'].tolist())
-print (res)
 
 # Write result in the result.text file
 
-file1 = open("result.txt","w")
+file1 = open("/home/Mr_spy/task-5/result.txt","w")
 file1.write(res)
 file1.close()
 
